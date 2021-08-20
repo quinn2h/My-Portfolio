@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <h1>Cheetah's Portfolio</h1>
-    </body>
+        <h1>Quinn's Portfolio</h1>
+        <div>
+            <button onclick="changeframe('https://quinn2h.github.io/Eyes/Eyes_Exercise')"></button>
+            <button onclick="changeframe('https://quinn2h.github.io/Marker/')"></button>
+            <button onclick="changeframe('https://quinn2h.github.io/Pacman/PacMan_Exercise/')"></button>
+        </div>
+        <iframe width = "100%" height = "600px" src = "https://quinn2h.github.io/Eyes/Eyes_Exercise"></iframe>
+    </body> 
+    <script >
+    function changeframe(link) {
+        document.querySelector("iframe").setAttribute("src", link);
+    }
+    </script>
 </html>
