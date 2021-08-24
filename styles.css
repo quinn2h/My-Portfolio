@@ -1,1 +1,42 @@
+body {
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+
+#Video {
+    margin: auto;
+}
+
+#NavBar {
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background-color: white;
+    display: inline-block;
+    font-size: 18px;
+}
+
+#Bio {
+    color: purple;
+}
+
+.buttons {
+    display: flex;
+    justify-items: center;
+}
+
+.project {
+    flex-basis: 100%;
+    font-size: 24px;
+}
+
+.project:hover {
+    background-color: aquamarine;
+}
 
